@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="pie.css">
+    <title>Pie Chart</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <div style="margin-right: 20px; width: 25%;">
+            <canvas id="pieChart" width="200" height="200"></canvas>
+        </div>
+        <div style="margin-right: 20px; width: 25%;">
+            <canvas id="donutChart" width="200" height="200"></canvas>
+        </div>
+    </div>
+    <div style="margin-right: 20px; width: 25%; align-content: center;">
+        <canvas id="barChart" width="200" height="200"></canvas>
+    </div>
+        <div style="text-align: center; margin-top: 20px;">
+        <button onclick="autoUpdateCharts()">Auto Update Charts</button>
+        </div>
+    <script src="pie.js"></script>
+</body>
+</html>
